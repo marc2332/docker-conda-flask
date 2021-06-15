@@ -1,5 +1,5 @@
 ## About
-This image runs a web server with (Flask)[https://flask.palletsprojects.com/en/2.0.x/]
+This image runs a web server with [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 Flask is installed with conda.
 
 - Host port: 80
@@ -19,7 +19,7 @@ Run the container:
 docker run -dp 80:5000 --name web_server conda-flask
 ```
 
-Visit (localhost)[localhost]
+Visit [localhost](http://localhost)
 
 Stop the container:
 ```shell
